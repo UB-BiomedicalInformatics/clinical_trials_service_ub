@@ -1,0 +1,10 @@
+<Context>
+	<Resource name="jdbc/sqlserv" auth="Container" type="javax.sql.DataSource"
+		factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" initialSize="5"
+		maxActive="55" maxIdle="21" minIdle="13"
+		timeBetweenEvictionRunsMillis="34000" minEvictableIdleTimeMillis="55000"
+		validationQuery="SELECT 1" validationInterval="34" testOnBorrow="true"
+		removeAbandoned="true" removeAbandonedTimeout="233" username="Annie"
+		password="Biomed#3" driverClassName="net.sourceforge.jtds.jdbc.Driver"
+		url="jdbc:jtds:sqlserver://128.205.2.59:1433;domain=CUSHING;databaseName=ClinicalTrials;" />
+</Context>
